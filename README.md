@@ -24,11 +24,11 @@ These patterns helped frame the data landscape — most entries are centered aro
 ## Step 3: Exploring Relationships (Regplots)
 I used regression plots to visually examine how variables relate:
 
-- Normalized Losses vs Symboling: Strong positive correlation — cars seen as higher risk by insurance (symboling) tend to have higher actual insurance losses.
-- Normalized Losses vs Price: Positive correlation — higher-priced vehicles tend to have more insurance losses, possibly because of repair costs.
-- Normalized Losses vs Engine Size & Horsepower: Weak to moderate positive correlation — more powerful cars may lead to higher losses.
-- Symboling vs Number of Doors: Negative correlation — sportier, riskier cars (higher symboling) tend to have fewer doors.
-- Normalized Losses vs Highway MPG: Weak negative correlation — more fuel-efficient cars may be slightly less risky.
+- Normalized Losses vs Symboling: Strong positive correlation, which means cars seen as higher risk by insurance (symboling) tend to have higher actual insurance losses.
+- Normalized Losses vs Price: Positive correlation, which means higher-priced vehicles tend to have more insurance losses, possibly because of repair costs.
+- Normalized Losses vs Engine Size & Horsepower: Weak to moderate positive correlation, which means more powerful cars may lead to higher losses.
+- Symboling vs Number of Doors: Negative correlation, which means sportier, riskier cars (higher symboling) tend to have fewer doors.
+- Normalized Losses vs Highway MPG: Weak negative correlation, which means more fuel-efficient cars may be slightly less risky.
 
 Each plot helped build a picture of what insurance risk might look like through various features.
 
@@ -37,7 +37,7 @@ I grouped by make and body-style to see brand/body trends in symboling (insuranc
 - By Make: Porsche, Saab, and Alfa-Romeo ranked highest, perceived as higher risk. Volvo had the lowest risk perception.
 - By Body Style: Convertibles had the highest average symboling, suggesting they’re seen as sportier and riskier. Wagons were seen as safest.
 
-These grouped insights supported what the plots hinted at — car type and brand matter in how risk is perceived.
+These grouped insights supported what the plots hinted at: car type and brand matter in how risk is perceived.
 
 ## Key Findings
 #### 1. Symboling and Normalized Losses Are Aligned
